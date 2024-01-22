@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78af32ea4d0b41b29737afac2a837203, type: 3}
+  m_Name: Divine Providence
+  m_EditorClassIdentifier: 
+  cardName: Divine Providence
+  rarity: 2
+  cardType: 1
+  description: 'Enchant permanent: This permanent cannot be removed from the field
+    by any means. '
+  artwork: {fileID: 0}
+  cardBackground: {fileID: 21300000, guid: a4d8c74fe21800f47b7362a1279a075c, type: 3}
+  Type: 1
+  Cost: 4
+  TargetsHex: 1
+  OnPlayEffects: []

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 120d1a74d07147a9a3f41f39e9a0a46a, type: 3}
+  m_Name: TESTCARD
+  m_EditorClassIdentifier: 
+  cardName: Test Card
+  rarity: 0
+  type: 0
+  description: whatever
+  artwork: {fileID: 21300000, guid: efb1c1b9ad8a6d54fb84b880c626ca6c, type: 3}
+  HexCost: 5
+  HexElement: 3
+  material: {fileID: 2100000, guid: c719e38f25a9480abd2480ab621a2949, type: 2}
+  activateEffects:
+  - {fileID: 11400000, guid: 48a48cb907c850d4089e8f0af3b9eae5, type: 2}
+  auraEffects: []
+  demolishEffects: []

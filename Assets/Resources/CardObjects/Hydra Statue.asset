@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 120d1a74d07147a9a3f41f39e9a0a46a, type: 3}
+  m_Name: Hydra Statue
+  m_EditorClassIdentifier: 
+  cardName: Hydra Statue
+  rarity: 2
+  cardType: 0
+  description: 'Each activation: Deal 2 damage to the opponent. If this artifact
+    would ever be demolished, create a copy of it in an adjacent open terra hex instead.
+    If there are no available terra hexes, destroy all Hydra Statues you control. '
+  artwork: {fileID: 21300000, guid: e9934ca5219cecc49984b34c6fc6c829, type: 3}
+  cardBackground: {fileID: 21300000, guid: b69cb4d6b87fc39429529a0b38f4feeb, type: 3}
+  Type: 0
+  HexCost: 1
+  hexUI: {fileID: 21300000, guid: 87a7f4e06a1174b418c4eef512ea530b, type: 3}
+  HexElement: 0
+  PlayedMaterial: {fileID: 0}
+  activateEffects: []
+  auraEffects: []
+  demolishEffects: []

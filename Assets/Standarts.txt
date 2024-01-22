@@ -1,0 +1,41 @@
+This is standards for this project applied to the folder structure and code naming conventions.
+
+
+Folder structure:
+
+General structure
+
+-Assets
+---Animations
+---Materials
+---Textures
+---Prefabs
+---ScriptableObjects
+---Scripts
+---(other types)
+
+
+In depth structure:
+
+-Assets
+    |-Scripts
+        |-Map
+            |-Script1
+            |-Script2
+            |-(Other)
+        |-Board
+            |-Script1
+            |-Script2
+        |-(Other)
+    |-Prefabs
+        |-Map
+            |-Prefab1
+            |-Resources (If follow prefabs need to be in the Resources folder)
+                |-Prefab2 
+                |-Prefab3 
+
+
+Code naming convention:
+
+look at the Standards.cs 
+    

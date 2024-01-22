@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69fa91b9401f413886373f75943fb31d, type: 3}
+  m_Name: Bog
+  m_EditorClassIdentifier: 
+  cardName: Bog
+  rarity: 0
+  cardType: 2
+  description: 'Cards cannot be played on this hex. Each activation: both players
+    place a copy of this hex on their side of the field. If there are no open spaces,
+    overwrite an existing hex.'
+  artwork: {fileID: 0}
+  cardBackground: {fileID: 21300000, guid: b69cb4d6b87fc39429529a0b38f4feeb, type: 3}
+  HexElement: 1
+  MaxTimer: 0
+  material: {fileID: 0}
+  texture: {fileID: 0}
+  hexUI: {fileID: 21300000, guid: 87a7f4e06a1174b418c4eef512ea530b, type: 3}
+  effects: []

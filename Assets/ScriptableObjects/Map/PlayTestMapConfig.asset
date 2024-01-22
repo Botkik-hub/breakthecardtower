@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe435b6f5f166d44fb38fb58ad1a8e06, type: 3}
+  m_Name: PlayTestMapConfig
+  m_EditorClassIdentifier: 
+  rowSize: 4
+  bottomBorder: -1
+  topBorder: 20
+  leftBorder: -9
+  rightBorder: 9
+  distanceBetweenNodes: 1.5
+  distanceBetweenLayers: 2
+  Layers:
+  - nodes:
+    - nodeType: 1
+      chance: 1
+    isFixedRow: 0
+    canBeSplit: 0
+  - nodes:
+    - nodeType: 5
+      chance: 1
+    isFixedRow: 0
+    canBeSplit: 0
+  - nodes:
+    - nodeType: 1
+      chance: 0.5
+    - nodeType: 5
+      chance: 0.5
+    isFixedRow: 0
+    canBeSplit: 0
+  - nodes:
+    - nodeType: 1
+      chance: 1
+    isFixedRow: 0
+    canBeSplit: 0
+  - nodes:
+    - nodeType: 10
+      chance: 1
+    isFixedRow: 0
+    canBeSplit: 0

@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 120d1a74d07147a9a3f41f39e9a0a46a, type: 3}
+  m_Name: Wireframe Explosive
+  m_EditorClassIdentifier: 
+  cardName: Wireframe Explosive
+  rarity: 1
+  cardType: 0
+  description: 'Activate: Place a Wire Construct on an adjacent Terra Hex. On Demolish:
+    Demolish all Wires. Deal 2 damage for each.'
+  artwork: {fileID: 21300000, guid: ff32426a9a38bd04d8649740a44060a9, type: 3}
+  cardBackground: {fileID: 21300000, guid: b69cb4d6b87fc39429529a0b38f4feeb, type: 3}
+  Type: 1
+  HexCost: 1
+  hexUI: {fileID: 21300000, guid: 87a7f4e06a1174b418c4eef512ea530b, type: 3}
+  HexElement: 0
+  PlayedMaterial: {fileID: 0}
+  activateEffects:
+    keys: 
+    values: 
+  auraEffects:
+    keys: 
+    values: 
+  demolishEffects:
+    keys: 
+    values: 

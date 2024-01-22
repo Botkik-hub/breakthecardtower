@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78af32ea4d0b41b29737afac2a837203, type: 3}
+  m_Name: Mind Spear
+  m_EditorClassIdentifier: 
+  cardName: Mind Spear
+  rarity: 0
+  cardType: 1
+  description: Deal 2 damage.
+  artwork: {fileID: 21300000, guid: a70b702abfcff344c967102dd39239b1, type: 3}
+  cardBackground: {fileID: 21300000, guid: a4d8c74fe21800f47b7362a1279a075c, type: 3}
+  Type: 0
+  Cost: 3
+  TargetsHex: 0
+  OnPlayEffects:
+    keys: 02000000
+    values: 02000000

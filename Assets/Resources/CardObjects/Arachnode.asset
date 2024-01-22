@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 120d1a74d07147a9a3f41f39e9a0a46a, type: 3}
+  m_Name: Arachnode
+  m_EditorClassIdentifier: 
+  cardName: Arachnode
+  rarity: 1
+  description: 'Each activation: Move this nexus bobble to an adjacent empty space
+    and create a Web terra hex beneath it. Only nexus bobbles can be placed on Webs. '
+  artwork: {fileID: 0}
+  Type: 1
+  HexCost: 1
+  HexElement: 0
+  PlayedMaterial: {fileID: 0}
+  activateEffects: []
+  auraEffects: []
+  demolishEffects: []
